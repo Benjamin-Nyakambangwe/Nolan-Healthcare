@@ -147,14 +147,12 @@ nav ul li a:hover {
 
 .categories-container .card {
 	background: #f3f3f3;
-	overflow:hidden;
 	width:230px;
 }
 
 .categories-container .card-header img {
 	width:100%;
 	height:280px;
-	object-fit:cover;
 }
 
 .categories-container .card-body h3 {
