@@ -8,7 +8,17 @@ AOS.init();
   		slidesToScroll: 1,
   		arrows:false,
   		autoplay:true,
-  		autoplaySpeed: 5000
+  		autoplaySpeed: 5000,
+      responsive: [
+        {
+          breakpoint: 480,
+          settings: {
+            infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          }
+        }
+      ]
       });
     });
 
