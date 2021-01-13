@@ -1700,6 +1700,10 @@ footer .footer-grid .footer-quicklinks {
 		width: 320px;
 	}
 
+	.categories {
+		width:320px;
+	}
+
 	.categories h1 {
 	    font-size: 30px;
     	margin: 20px 0 20px 25px;
@@ -2443,8 +2447,9 @@ footer .footer-grid .footer-quicklinks {
 
 	.middle-intro {
 		grid-template-columns: 1fr;
-		margin-left: 0;
+		margin-left: 35px;
 		margin-right: 0;
+		grid-gap: 5px;
 	}
 
 	.middle-intro .blocks {
@@ -2524,7 +2529,7 @@ footer .footer-grid .footer-quicklinks {
 
 	.top-products h1 {
 		margin: 20px 45px 20px 45px;
-		font-size:35px;
+		font-size:30px;
 
 	}
 
@@ -2652,7 +2657,7 @@ footer .footer-grid .footer-quicklinks {
 
 
 	footer {
-		padding: 15px 25px;
+		padding: 15px 5px;
 	}
 
 	footer h1 {
